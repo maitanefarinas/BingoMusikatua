@@ -38,7 +38,7 @@ Hor ageri diren balioak nahitaez sartu beharrekoak dira, baina badira beste batz
 - `-i <kartoien izenburua>` -> Kartoien gainean ageriko den testua. Bestela, defektuz: "BINGO MUSIKATUA"
 - `-k` -> Hau gehituz gero, kartoiak koloretan inprimatuko dira.
 
-Adibdiez: 
+Adibidez: 
 ```bash
 python KartoiakSortu.py -N 20 -n 12 -a fitxategiak/zerrenda_adibidea_2partida.txt -o "kode_osoa.tex" -i "Bazkaloste musikatua!" -k
 ```
@@ -46,6 +46,6 @@ python KartoiakSortu.py -N 20 -n 12 -a fitxategiak/zerrenda_adibidea_2partida.tx
 
 ### Konpilatu kodea
 
-Egin behar den gauza bakarra sortutako fitxategiko kode osoa kopiatu eta latexeko konpilatzaile batean itsastea da. Era horretan kartoi guztiak biltzen dituen PDFa lortuko dugu.
+Egin behar den gauza bakarra sortutako fitxategiko kode osoa kopiatu eta latexeko konpilatzaile batean itsastea da. Era horretan kartoi guztiak biltzen dituen PDFa lortuko duzu.
 
 Modurik errazena [Overleaf](https://www.overleaf.com/) plataforma erabiltzea da. Sortu kontua, hasi proiektu bat eta itsatsi kodea `.tex` fitxategi batean (sortu duzun fitxategia `.tex` erakoa bada, zuzenean igo dezakezu plataformara). Ondoren, konpilatu irudikatzeko, eta inprimatu.
