@@ -71,6 +71,8 @@ Irudi hauetan ikus daiteke nolako itxura izango duten kartoiek, tamainaren eta k
 <img src="fitxategiak/.irudiak/adibidea_koloretan.jpeg" width="450">
 Kasu honetan 5 kartoi inprimatuko dira orrialdeko.
 
+
+
 2. Zuri-beltzean, 15 abestiko kartoiak:
 <img src="fitxategiak/.irudiak/adibidea_zuribeltzean.jpeg" width="450">
 Kasu honetan 4 kartoi inprimatuko dira orrialdeko.
