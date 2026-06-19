@@ -67,15 +67,12 @@ Bi partidako bingoen kasuan, lehen partidako kartoiak orrien aurreko aldean inpr
 
 Irudi hauetan ikus daiteke nolako itxura izango duten kartoiek, tamainaren eta koloreen arabera:
 
-1. Koloretan, 12 abestiko kartoiak:
+1. Koloretan, 12 abestiko kartoiak (kasu honetan 5 kartoi inprimatuko dira orrialdeko):
 <img src="fitxategiak/.irudiak/adibidea_koloretan.jpeg" width="450">
-Kasu honetan 5 kartoi inprimatuko dira orrialdeko.
 
 
-
-2. Zuri-beltzean, 15 abestiko kartoiak:
+2. Zuri-beltzean, 15 abestiko kartoiak (kasu honetan 4 kartoi inprimatuko dira orrialdeko):
 <img src="fitxategiak/.irudiak/adibidea_zuribeltzean.jpeg" width="450">
-Kasu honetan 4 kartoi inprimatuko dira orrialdeko.
 
 
 Abesti kopuruaren arabera, orrialdeko 4 edo 5 kartoi ageriko dira, automatikoki.
