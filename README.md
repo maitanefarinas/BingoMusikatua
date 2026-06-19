@@ -16,7 +16,7 @@ Modu hau erabiltzeko, ireki `BingoMusikatuaNotebook.ipynb` fitxategia. Notebook 
 
 Bingo-saiorako zenbat abesti aukeratu ez badakizu, lehen zatiak lagun diezazuke: zure datuak sartuta, batez bestean partida zenbagarren abestian amaituko den estimatzen da. Abesti bakoitzari eman nahi diozun luzeraren arabera kalkulatu ahal izango duzu zure partidaren gutxi gorabeherako iraupena!
 
-Bigarren zatian, zure datuak sartuta, zuzeneak sortu ahal izango duzu latex-eko kodearen fitxategia.
+Bigarren zatian, zure datuak sartuta, zuzenean sortu ahal izango duzu latex-eko kodearen fitxategia.
 
 #### Zuzenean terminaletik
 
