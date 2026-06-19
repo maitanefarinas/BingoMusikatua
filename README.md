@@ -1,6 +1,8 @@
 # BingoMusikatua - Bingo musikatuetarako kartoiak automatikoki sortzeko kodea!
 
-<img src="fitxategiak/.irudiak/logoa.png" width="400">
+<p align="center">
+  <img src="fitxategiak/.irudiak/logoa.png" width="400">
+</p>
 
 Abesti-zerrenda baten fitxategia emanda, kartoiak latex-eko kodean idazten ditu, eta kode hori latex-eko konpilatzaile batean (Overleaf) itsastea besterik ez da behar.
 
