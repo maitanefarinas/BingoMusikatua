@@ -1,5 +1,4 @@
-# BingoMusikatua
-## Bingo musikatuetarako kartoiak automatikoki sortzeko kodea!
+# BingoMusikatua - Bingo musikatuetarako kartoiak automatikoki sortzeko kodea!
 
 <img src="fitxategiak/.irudiak/logoa.png" width="120">
 
