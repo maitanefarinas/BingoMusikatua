@@ -86,7 +86,7 @@ def partidako_kartoiak_sortu(kartoi_kopurua, abesti_kopurua_guztira, kartoiko_ab
     kartoiak = set()
 
     if kartoi_kopurua > math.comb(abesti_kopurua_guztira, kartoiko_abesti_kopurua):
-        raise ValueError("Ez dago konbinazio nahikorik kartoi ezberdinak sortzeko")
+        raise ValueError("Ez dago konbinazio nahikorik kartoi ezberdinak sortzeko! Gehitu abesti gehiago zerrendan, txikitu kartoiaren tamaina edo gutxitu kartoi kopurua.")
 
     while len(kartoiak) < kartoi_kopurua:
         kartoia_i = frozenset(kartoi_bat_sortu(abesti_kopurua_guztira, kartoiko_abesti_kopurua))
@@ -192,6 +192,9 @@ def kartoiak_idatzi_n(kartoiko_abesti_kopurua, kartoi_kopurua,
     partida_kopurua = len(partidetako_abestiak)
     partidetako_kartoiak = kartoien_hiztegia_sortu(partidetako_abestiak, kartoiko_abesti_kopurua, kartoi_kopurua)
 
+    # Ziurtatu kartoiko abesti kopurua 3ren multiploa dela
+    if kartoiko_abesti_kopurua%3 != 0:
+        raise ValueError(f"Kartoiko abesti kopuruak 3ren multiploa izan behar du! {kartoiko_abesti_kopurua}-k ez du balio.")
 
     # Orri batean zenbat kartoi sartzen diren zehazteko
     k = 5
