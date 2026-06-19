@@ -15,9 +15,9 @@
 1 Urtxintxak
 1 Forjarien kanta
 1 Ez gaude salgai
-1 Hilarria
-1 Aspaldiko loreak
-1 Hegal egiten
+2 Hilarria
+2 Aspaldiko loreak
+2 Hegal egiten
 2 Esperantzara kondenatua
 2 Txatxamatxalinatxu
 2 Xorieri
@@ -32,4 +32,3 @@
 2 Hablame en cristiano
 2 Efemerideak
 2 Galdera guztiak
-2 EH Sukarra
