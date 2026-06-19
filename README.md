@@ -2,9 +2,14 @@
 
 Abesti-zerrenda baten fitxategia emanda, kartoiak latex-eko kodean idazten ditu, eta kode hori latex-eko konpilatzaile batean (Overleaf) itsastea besterik ez da behar.
 
+
 ## Nola erabili?
 
 Lehenik eta behin, `python` erabilgarri izan behar da. Pythoneko scriptak erabiliko ditugu kartoien kodea sortzeko.
+
+### Idatzi abesti zerrenda
+
+Fitxategi honek nolakoa izan behar duen jakiteko, jo `fitxategiak/` karpetara; bi zerrenda ikusiko dituzu bertan, partida bakarrerako abestiak dituena, eta bi bingo partida egiteko abestiak dituena. Alde bakarra, bigarrenak `1` edo `2` zenbakiak dituela abestien izenaren aurretik.
 
 ### Sortu kodea
 
@@ -43,12 +48,13 @@ Adibidez:
 python KartoiakSortu.py -N 20 -n 12 -a fitxategiak/zerrenda_adibidea_2partida.txt -o "kode_osoa.tex" -i "Bazkaloste musikatua!" -k
 ```
 
-
 ### Konpilatu kodea
 
 Egin behar den gauza bakarra sortutako fitxategiko kode osoa kopiatu eta latexeko konpilatzaile batean itsastea da. Era horretan kartoi guztiak biltzen dituen PDFa lortuko duzu.
 
 Modurik errazena [Overleaf](https://www.overleaf.com/) plataforma erabiltzea da. Sortu kontua, hasi proiektu bat eta itsatsi kodea `.tex` fitxategi batean (sortu duzun fitxategia `.tex` erakoa bada, zuzenean igo dezakezu plataformara). Ondoren, konpilatu irudikatzeko, eta inprimatu.
+
+Bi partidako bingoen kasuan, kartoiek tamaina bera izango dute, eta zehazki bata bestearen atzean inprimatzeko moduan dago pentsatuta. Beraz, bi aldetatik inprimatu ahal izango duzu PDFa, eta ez da arazorik egongo mozterako orduan. Partida bakarrerako bada, kontuz, alde bakarretik inprimatu beharko duzu PDFa!
 
 
 
