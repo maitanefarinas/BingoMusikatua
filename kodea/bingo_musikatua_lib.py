@@ -132,7 +132,7 @@ def taula_kodea_idatzi(izenburua, jokaldia_index, kartoia_i, kartoiko_abesti_kop
     # Tablako kodian lelengo zatixa (beti iguala)
     izenburu_berria = izenburua
     if gehitu_partida_indizea:
-        izenburu_berria = f"{izenburua} - {jokaldia_index}"
+        izenburu_berria = f"{izenburua} - {jokaldia_index+1}"
 
     kode_berria = (
     "\\begin{center}\n"
@@ -152,8 +152,11 @@ def taula_kodea_idatzi(izenburua, jokaldia_index, kartoia_i, kartoiko_abesti_kop
         kolorea_kodea = ""
         if kolorea_gehitu:
             kolorea_kodea = "{\cellcolor[HTML]{" + f"{kolorea_sortu(abestiaren_izena)}" + "}"
+        else:
+            if j%2 == 1: kolorea_kodea = "{\cellcolor{" + "gray!40" + "}"
+            
         kode_berria += kolorea_kodea +"{\\textbf{" + abestiaren_izena + "}}"
-        if kolorea_gehitu: kode_berria += "}"
+        if kolorea_gehitu or j%2==1: kode_berria += "}"
 
         if (j+1)%3 == 0:
             kode_berria += "\\\\ \\hline"
@@ -180,7 +183,7 @@ def orria_gehitu(i, partida_kopurua, jokaldia_index, k):
     return orri_amaiera
 
 def kartoiak_idatzi_n(kartoiko_abesti_kopurua, kartoi_kopurua,
-                     abesti_zerrenda_filename='abesti_zerrenda.txt',
+                     abesti_zerrenda_filename,
                      output_fitxategia_filename='kode_osoa.txt',
                      koloretan = False,
                      izenburua: str = "BINGO MUSIKATUA"):

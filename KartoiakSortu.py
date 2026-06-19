@@ -1,7 +1,7 @@
 ############################################
 # Bingo musikatuko kartoiak sortzeko kodea.
 ############################################
-import bingo_musikatua_lib as bm
+import kodea.bingo_musikatua_lib as bm
 import argparse
 from pathlib import Path
 
