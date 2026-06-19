@@ -49,3 +49,18 @@ python KartoiakSortu.py -N 20 -n 12 -a fitxategiak/zerrenda_adibidea_2partida.tx
 Egin behar den gauza bakarra sortutako fitxategiko kode osoa kopiatu eta latexeko konpilatzaile batean itsastea da. Era horretan kartoi guztiak biltzen dituen PDFa lortuko duzu.
 
 Modurik errazena [Overleaf](https://www.overleaf.com/) plataforma erabiltzea da. Sortu kontua, hasi proiektu bat eta itsatsi kodea `.tex` fitxategi batean (sortu duzun fitxategia `.tex` erakoa bada, zuzenean igo dezakezu plataformara). Ondoren, konpilatu irudikatzeko, eta inprimatu.
+
+
+
+## Adibideak, irudietan
+
+Irudi hauetan ikus daiteke nolako itxura izango duten kartoiek, tamainaren eta koloreen arabera:
+
+1. Koloretan, 12 abestiko kartoiak:
+![](fitxategiak/.irudiak/adibidea_koloretan.jpeg)
+
+2. Zuri-beltzean, 15 abestiko kartoiak:
+![](fitxategiak/.irudiak/adibidea_zuribeltzean.jpeg)
+
+
+Abesti kopuruaren arabera, orrialdeko 4 edo 5 kartoi ageriko dira, automatikoki.
