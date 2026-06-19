@@ -57,10 +57,10 @@ Modurik errazena [Overleaf](https://www.overleaf.com/) plataforma erabiltzea da.
 Irudi hauetan ikus daiteke nolako itxura izango duten kartoiek, tamainaren eta koloreen arabera:
 
 1. Koloretan, 12 abestiko kartoiak:
-<img src="fitxategiak/.irudiak/adibidea_koloretan.jpeg" width="300">
+<img src="fitxategiak/.irudiak/adibidea_koloretan.jpeg" width="450">
 
 2. Zuri-beltzean, 15 abestiko kartoiak:
-<img src="fitxategiak/.irudiak/adibidea_zuribeltzean.jpeg" width="300">
+<img src="fitxategiak/.irudiak/adibidea_zuribeltzean.jpeg" width="450">
 
 
 Abesti kopuruaren arabera, orrialdeko 4 edo 5 kartoi ageriko dira, automatikoki.
