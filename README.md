@@ -4,7 +4,7 @@
   <img src="files/.images/logo.png" width="400">
 </p>
 
-This codes generates Bingo cards, but instead of using numbers, it usees song names.
+This codes generates Bingo cards, but instead of using numbers, it uses song names.
 
 Providing a list with song names, it generates Bingo cards in LaTeX code. This code can directly be compiled to obtain a PDF with all the needed cards to play a fun Bingo game! Keep reading to learn how to use it.
 
