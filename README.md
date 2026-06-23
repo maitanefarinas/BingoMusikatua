@@ -1,4 +1,4 @@
-# BingoMusikatua - Bingo musikatuetarako kartoiak automatikoki sortzeko kodea!
+# Bingo Musikatua euskaraz - Bingo musikatuetarako kartoiak automatikoki sortzeko kodea!
 
 <p align="center">
   <img src="fitxategiak/.irudiak/logoa.png" width="400">
@@ -59,7 +59,7 @@ Egin behar den gauza bakarra sortutako fitxategiko kode osoa kopiatu eta LaTeX k
 
 Modurik errazena [Overleaf](https://www.overleaf.com/) plataforma erabiltzea da. Sortu kontua, hasi proiektu bat eta itsatsi kodea `.tex` fitxategi batean (sortu duzun fitxategia `.tex` erakoa bada, zuzenean igo dezakezu plataformara). Ondoren, konpilatu irudikatzeko, eta inprimatu.
 
-Bi partidako bingoen kasuan, lehen partidako kartoiak orrien aurreko aldean inprimatuko dira, eta bigarrenekoak atzekoan. Kartoiek tamaina bera izango dute, eta zehazki bata bestearen atzean inprimatzeko moduan eginda daude; beraz, bi aldetatik inprimatu ahal izango duzu PDFa, eta ez da arazorik egongo mozterako orduan. Partida bakarrerako bada, aldiz, kontuz: orrialde bakarretik inprimatu beharko duzu PDFa!
+Bi partidako bingoen kasuan, lehen partidako kartoiak orrien aurreko aldean inprimatuko dira, eta bigarrenekoak atzekoan. Kartoiek tamaina bera izango dute, eta zehazki bata bestearen atzean inprimatzeko moduan eginda daude; beraz, bi aldetatik inprimatu ahal izango duzu PDFa, eta ez da arazorik egongo mozterako orduan. Partida bakarrerako bada, aldiz, kontuz: orrialde bakarrean inprimatu beharko duzu PDFa, atzekoa zuri lagata!
 
 
 
