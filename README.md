@@ -1,4 +1,4 @@
-# BingoMusikatua - Bingo musikatuetarako kartoiak automatikoki sortzeko kodea!
+# MusicalBingo - Code to automatically generate cards for your Bingo games!
 
 <p align="center">
   <img src="files/.images/logo.png" width="400">
