@@ -35,7 +35,7 @@ def main():
     args = get_command_line_arguments()
 
     song_file = args.file_list.as_posix()
-    number_cards = args.numer_of_cards
+    number_cards = args.number_of_cards
     output_file = args.latex_code
     number_songs = args.number_of_songs
     in_colour = args.colour
