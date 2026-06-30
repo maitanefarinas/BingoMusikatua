@@ -69,14 +69,14 @@ Irudi hauetan ikus daiteke nolako itxura izango duten kartoiek, tamainaren eta k
 
 1. Koloretan, 12 abestiko kartoiak (kasu honetan 5 kartoi inprimatuko dira orrialdeko):
 ```bash
-python KartoiakSortu.py -N 2 -n 12 -a fitxategiak/zerrenda_adibidea_partida1.txt -i "BINGO MUSIKATUA" 
+python KartoiakSortu.py -N 2 -n 12 -a fitxategiak/zerrenda_adibidea_partida1.txt -i "BINGO MUSIKATUA" -k
 ```
 <img src="fitxategiak/.irudiak/adibidea_koloretan.jpeg" width="450">
 
 
 2. Zuri-beltzean, 15 abestiko kartoiak (kasu honetan 4 kartoi inprimatuko dira orrialdeko):
 ```bash
-python KartoiakSortu.py -N 2 -n 15 -a fitxategiak/zerrenda_adibidea_partida1.txt -i "BINGO MUSIKATUA" -k 
+python KartoiakSortu.py -N 2 -n 15 -a fitxategiak/zerrenda_adibidea_partida1.txt -i "BINGO MUSIKATUA"
 ```
 <img src="fitxategiak/.irudiak/adibidea_zuribeltzean.jpeg" width="450">
 
