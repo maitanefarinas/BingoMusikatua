@@ -38,6 +38,7 @@ def read_file(song_filename: str):
     """
     It returns a dictionary
     """
+    import re
     games = {}
     with open(song_filename, "r") as az:
         for line in az:
@@ -51,12 +52,20 @@ def read_file(song_filename: str):
             # If there is no number, we assume its a single game
             if not split_line[0].isdigit() or (split_line[0].isdigit() and len(split_line) == 1):
                 index = 1
-                song = line
+                song = line.strip()
 
             # Otherwise, classify songs in games (using provided number)
             else:
                 index = int(split_line[0])
                 song = split_line[1].strip()
+            
+            # Check if there is a specification of size
+            size_match = re.match(r"\[(\w)\]", song.split()[-1].strip())
+            if size_match:
+                size_match = size_match.group(1)
+                song = re.sub(r"\s*\[(\w)\]","",song)
+                if   size_match.lower() == "s": song = "\small{"+song+"}"  # if [s] -> small
+                elif size_match.lower() == "t": song = "\tiny{"+song+"}"   # if [t] -> tiny
             
             if index in games.keys():
                 games[index].append(song)
