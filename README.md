@@ -17,6 +17,8 @@ Lehenik eta behin, `python` erabilgarri izan behar da, Python scriptak erabiliko
 
 Fitxategi honek nolakoa izan behar duen jakiteko, jo `fitxategiak/` karpetara. Bi zerrenda ikusiko dituzu bertan: partida bakarrerako abestiak dituena (`zerrenda_adibidea_partida1.txt`), eta bi bingo-partida egiteko abestiak dituena (`zerrenda_adibidea_2partida.txt`). Egitura bera dute; alde bakarra, bigarrenak `1` eta `2` zenbakiak dituela abestien izenaren aurretik, abesti bakoitza zein partidari dagokion zehaztu ahal izateko.
 
+Abestiren baten izena luzeegia bada, posible da ilara bakarrean sartu ez eta bigarren batera pasatzea. Kasu honetan, arazoak sor ditzake, taulen tamainak eta orrien kalkulua ez baitago horretarako prestatuta. **Zer egin kasu hauetan?** Abestien zerrenda, izenaren amaieran `[t]`, letra pixka bat txikitzeko, edo, nahikoa ez bada, `[tt]`, are gehiago txikitzeko. Adibidea `fitxategiak/zerrenda_adibidea_partida1.txt` zerrendan ikus dezakezu.
+
 ### Sortu kodea
 
 Bi modutan egin daiteke:
