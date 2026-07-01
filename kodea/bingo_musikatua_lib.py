@@ -38,6 +38,8 @@ def fitxategia_irakurri(abesti_zerrenda_filename: str):
     """
     Hiztegi bat itzultzen du
     """
+    import re
+
     partidak = {}
     with open(abesti_zerrenda_filename, "r") as az:
         for line in az:
@@ -51,12 +53,20 @@ def fitxategia_irakurri(abesti_zerrenda_filename: str):
             # Abestien zenbakirik ez badago, bingo bakarra egingo dela suposatzen da
             if not line_zatitua[0].isdigit() or (line_zatitua[0].isdigit() and len(line_zatitua) == 1):
                 indizea = 1
-                abestia = line
+                abestia = line.strip()
 
             # Bestela, zenbakiari dagokion bingo partidan gehituko da abestia
             else:
                 indizea = int(line_zatitua[0])
                 abestia = line_zatitua[1].strip()
+            
+            # Begiratu ea tamaina aldatu behar diogun
+            tamaina = re.match(r"\[(\w)\]", abestia.split()[-1].strip())
+            if tamaina:
+                tamaina = tamaina.group(1)
+                abestia = re.sub(r"\s*\[(\w)\]","",abestia)
+                if   tamaina.lower() == "t": abestia = "\small{"+abestia+"}"   # [t] -> txikia
+                elif tamaina.lower() == "tt": abestia = "\tiny{"+abestia+"}"   # [tt] -> oso txikia
             
             if indizea in partidak.keys():
                 partidak[indizea].append(abestia)
