@@ -78,7 +78,7 @@ python CreateCards.py -N 2 -n 12 -a files/example_list_1game.txt -i "Musical Bin
 
 2. In black and white, with cards of 15 songs each (4 cards per page will be printed, since they are bigger):
 ```bash
-python CreateCards.py -N 2 -n 15 -a files/example_list_1game.txt -i "Musical Bingo!!!!!"
+python CreateCards.py -N 2 -n 15 -a files/example_list_1game.txt -i "Musical Bingo!"
 ```
 <img src="files/.images/adibidea_zuribeltzean.jpeg" width="450">
 
