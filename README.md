@@ -68,10 +68,16 @@ In the cases where you have two Bingo games, the cards of each game will be prin
 These images show how the cards will look, depending on their size and colour:
 
 1. In colour, with cards of 12 songs each (5 cards per page will be printed):
+```bash
+python CreateCards.py -N 2 -n 12 -a files/example_list_1game.txt -i "Musical Bingo!" -k
+```
 <img src="files/.images/adibidea_koloretan.jpeg" width="450">
 
 
 2. In black and white, with cards of 15 songs each (4 cards per page will be printed, since they are bigger):
+```bash
+python CreateCards.py -N 2 -n 15 -a files/example_list_1game.txt -i "Musical Bingo!!!!!"
+```
 <img src="files/.images/adibidea_zuribeltzean.jpeg" width="450">
 
 Depending on the number of songs per card, 4 or 5 cards will be printed per page. This is selected automatically.
