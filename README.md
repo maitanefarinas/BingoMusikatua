@@ -18,7 +18,7 @@ Necessary to have `python` available (optional `matplotlib` library, if you want
 
 The list of songs needs to be stored in a file. To know how this file needs to look like, you can check the examples in `files/`. You can find two files there, one containing the file list to generate cards for a **single Bingo game** (`example_list_1game.txt`), and the other one to generate cards for **two consecutive Bingo games** (`example_list_2games.txt`). They have the same structure; the only difference is that if you want two games, you have to add the game index before the song name. The lengths of the games does not need to be the same: you can have a first game with 20 songs and a second one with 15.
 
-If the name of a song is too long, it might not fit in a single line and will be written in two lines. In this case, it might cause problems, since the size of the tables and the organisation of the pages is not prepared for that. **How do I fix this?** In your song list file, you can add either `[s]`, to make the size smaller, or `[t]`, to make it tiny. You can see an example in `files/example_list_1game.txt`
+If the name of a song is too long, it might not fit in a single line and will be written in two lines. In this case, it might cause problems, since the size of the tables and the organisation of the pages is not prepared for that. **How do I fix this?** In your song list file, at the end of the name of the song, you can add either `[s]`, to make the size smaller, or `[t]`, to make it tiny. You can see an example in `files/example_list_1game.txt`
 
 ### Generate the code
 
